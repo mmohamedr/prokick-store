@@ -242,7 +242,7 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 **Mohamed Ramadan**
 
 - GitHub: [@mmohamedr](https://github.com/mmohamedr)
-- Email: contact@example.com
+- Email: 7m7ohamed@gmail.com
 
 ---
 
@@ -261,9 +261,7 @@ If you found this project helpful, please consider:
 
 For questions, suggestions, or feedback:
 
-- 📧 Email: contact@example.com
-- 🐦 Twitter: [@yourhandle](https://twitter.com)
-- 💬 Discord: YourServer
+- 📧 Email: 7m7ohamed@gmail.com
 
 ---
 
@@ -271,6 +269,6 @@ For questions, suggestions, or feedback:
 
 **[⬆ back to top](#-prokick-store)**
 
-Made with ❤️ by Mohamed Ramadan
+Made with ❤️ by Mohamed 
 
 </div>
