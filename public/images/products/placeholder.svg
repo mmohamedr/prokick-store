@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#0a0a0a" />
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" fill="#888" font-family="Arial, sans-serif" font-size="64" font-weight="700">IMAGE</text>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#888" font-family="Arial, sans-serif" font-size="40">UNAVAILABLE</text>
+</svg>

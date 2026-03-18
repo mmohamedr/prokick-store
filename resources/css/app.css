@@ -1,0 +1,564 @@
+/* ===== INTER FONT IMPORT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ===== GLOBAL STYLES ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== HEADING HIERARCHY ===== */
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+}
+
+h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+}
+
+h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+/* ===== BODY TEXT ===== */
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    color: #00ff87;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00e67a;
+    text-decoration: underline;
+}
+
+small, .small {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+strong, b, .fw-bold {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* ===== FORM ELEMENTS ===== */
+
+input, textarea, select, .form-control, .form-select {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2a2a2a;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 0.75rem;
+}
+
+input:focus, textarea:focus, select:focus, .form-control:focus, .form-select:focus {
+    background-color: #333333;
+    border-color: #00ff87;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 135, 0.25);
+}
+
+input::placeholder, textarea::placeholder {
+    color: #999999;
+}
+
+/* ===== BUTTONS ===== */
+
+button, .btn, input[type="button"], input[type="submit"], input[type="reset"] {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #00ff87;
+    color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #00e67a;
+}
+
+.btn-secondary {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #555555;
+}
+
+.btn-accent {
+    background-color: #00ff87;
+    color: #000000;
+    border-color: #00ff87;
+}
+
+.btn-accent:hover {
+    background-color: #00e67a;
+    border-color: #00e67a;
+}
+
+/* ===== BOOTSTRAP COMPONENTS ===== */
+
+/* Navbar */
+.navbar, .navbar-dark {
+    font-family: "Inter", sans-serif;
+    background-color: #000000 !important;
+    border-bottom: 1px solid #333333;
+}
+
+.navbar-brand {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00ff87 !important;
+}
+
+/* Cards */
+.card {
+    font-family: "Inter", sans-serif;
+    background-color: #2a2a2a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+.card-body {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+/* Alerts */
+.alert {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #1a3a2a;
+    color: #00ff87;
+    border: 1px solid #00ff87;
+}
+
+.alert-danger {
+    background-color: #3a1a1a;
+    color: #ff6b6b;
+    border: 1px solid #ff6b6b;
+}
+
+.alert-warning {
+    background-color: #3a3a1a;
+    color: #ffd700;
+    border: 1px solid #ffd700;
+}
+
+.alert-info {
+    background-color: #1a2a3a;
+    color: #4dabf7;
+    border: 1px solid #4dabf7;
+}
+
+/* Badges */
+.badge {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0.35rem 0.65rem;
+}
+
+.badge.bg-accent {
+    background-color: #00ff87 !important;
+    color: #000000 !important;
+}
+
+/* Tables */
+.table {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    border-color: #333333;
+}
+
+.table thead {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background-color: #2a2a2a;
+    border-color: #333333;
+}
+
+.table tbody tr {
+    border-color: #333333;
+}
+
+.table tbody tr:hover {
+    background-color: #262626;
+}
+
+/* Modals */
+.modal-content {
+    font-family: "Inter", sans-serif;
+    background-color: #2a2a2a;
+    border: 1px solid #333333;
+}
+
+.modal-header {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    border-bottom: 1px solid #333333;
+}
+
+.modal-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.modal-body {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+.modal-footer {
+    font-family: "Inter", sans-serif;
+    border-top: 1px solid #333333;
+}
+
+/* Pagination */
+.pagination {
+    font-family: "Inter", sans-serif;
+}
+
+.page-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: #1a1a1a;
+    border-color: #333333;
+    color: #ffffff;
+}
+
+.page-link:hover {
+    background-color: #2a2a2a;
+    border-color: #444444;
+    color: #00ff87;
+}
+
+.page-item.active .page-link {
+    background-color: #00ff87;
+    border-color: #00ff87;
+    color: #000000;
+    font-weight: 700;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    font-family: "Inter", sans-serif;
+    background-color: transparent;
+}
+
+.breadcrumb-item {
+    font-family: "Inter", sans-serif;
+    color: #cccccc;
+}
+
+.breadcrumb-item.active {
+    font-family: "Inter", sans-serif;
+    color: #00ff87;
+    font-weight: 600;
+}
+
+/* Progress bars */
+.progress {
+    background-color: #2a2a2a;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background-color: #00ff87;
+    color: #000000;
+}
+
+/* Tooltips */
+.tooltip-inner {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: #333333;
+    max-width: 200px;
+}
+
+/* ===== TEXT UTILITIES ===== */
+
+.lead {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.text-muted, .text-secondary {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #999999 !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-dark {
+    color: #1a1a1a !important;
+}
+
+.text-accent {
+    color: #00ff87 !important;
+    font-weight: 600;
+}
+
+.text-success {
+    color: #00ff87 !important;
+}
+
+.text-danger {
+    color: #ff6b6b !important;
+}
+
+.text-warning {
+    color: #ffd700 !important;
+}
+
+.text-info {
+    color: #4dabf7 !important;
+}
+
+/* ===== BACKGROUND UTILITIES ===== */
+
+.bg-accent {
+    background-color: #00ff87 !important;
+    color: #000000 !important;
+}
+
+.bg-dark, .bg-black {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+.bg-gray {
+    background-color: #2a2a2a !important;
+}
+
+/* ===== CUSTOM STYLES FOR PROKICK STORE ===== */
+
+:root {
+    --accent-color: #00ff87;
+    --gray-bg: #2a2a2a;
+    --dark-bg: #1a1a1a;
+    --black-bg: #000000;
+    --text-white: #ffffff;
+    --border-color: #333333;
+}
+
+.category-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    transition: all 0.2s ease;
+    min-height: 120px;
+    border-radius: 8px;
+}
+
+.category-card:hover {
+    background-color: #2a2a2a;
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.category-card .category-icon {
+    color: var(--accent-color);
+}
+
+.hover-lift {
+    transition: transform 0.2s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    border-top: 1px solid #333333;
+}
+
+footer p, footer a {
+    font-family: "Inter", sans-serif;
+    color: #cccccc;
+}
+
+footer a:hover {
+    color: #00ff87;
+}
+
+footer h5, footer h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Utility classes */
+.fw-light {
+    font-weight: 400;
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-extrabold {
+    font-weight: 800;
+}
+
+/* Spacing adjustments */
+.mt-1, .my-1 { margin-top: 0.5rem; }
+.mt-2, .my-2 { margin-top: 1rem; }
+.mt-3, .my-3 { margin-top: 1.5rem; }
+.mt-4, .my-4 { margin-top: 2rem; }
+.mt-5, .my-5 { margin-top: 3rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.mb-4 { margin-bottom: 2rem; }
+.mb-5 { margin-bottom: 3rem; }
+
+.pt-1, .py-1 { padding-top: 0.5rem; }
+.pt-2, .py-2 { padding-top: 1rem; }
+.pt-3, .py-3 { padding-top: 1.5rem; }
+.pt-4, .py-4 { padding-top: 2rem; }
+.pt-5, .py-5 { padding-top: 3rem; }
+
+.pb-1 { padding-bottom: 0.5rem; }
+.pb-2 { padding-bottom: 1rem; }
+.pb-3 { padding-bottom: 1.5rem; }
+.pb-4 { padding-bottom: 2rem; }
+.pb-5 { padding-bottom: 3rem; }
