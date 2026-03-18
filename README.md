@@ -1,59 +1,276 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏀 ProKick Store
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center">
 
-## About Laravel
+![ProKick Store](https://img.shields.io/badge/Laravel-12.0-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A modern, feature-rich e-commerce web application for selling sports shoes - built with **Laravel 12**, **Bootstrap 5**, and **Vite**.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+[Live Demo](#) • [Report Bug](https://github.com/mmohamedr/prokick-store/issues) • [Request Feature](https://github.com/mmohamedr/prokick-store/issues)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## ✨ Features
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- 🛍️ **Browse Products** - Explore our collection of premium sports shoes
+- 🔍 **Advanced Search & Filtering** - Find exactly what you're looking for
+- ❤️ **Wishlist** - Save your favorite items for later
+- 🛒 **Shopping Cart** - Manage your purchases easily
+- 💳 **Secure Checkout** - Safe payment processing
+- 📦 **Order Management** - Track your orders in real-time
+- 📱 **Fully Responsive** - Works seamlessly on all devices
+- 🌙 **Dark Theme** - Eye-friendly interface
+- ⚡ **Lightning Fast** - Optimized performance with Vite
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🛠️ Tech Stack
 
-### Premium Partners
+| Component           | Technology                    |
+| ------------------- | ----------------------------- |
+| **Backend**         | Laravel 12, PHP 8.2+          |
+| **Frontend**        | Bootstrap 5, Vite, JavaScript |
+| **Database**        | MySQL                         |
+| **Build Tool**      | Vite                          |
+| **Testing**         | PHPUnit                       |
+| **Package Manager** | Composer, npm                 |
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 📋 Prerequisites
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Before you begin, ensure you have the following installed:
 
-## Code of Conduct
+- **PHP** `^8.2`
+- **Composer** (latest version)
+- **Node.js** `^18.0` & **npm** or **yarn**
+- **MySQL** or compatible database
+- **Git**
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 🚀 Quick Start
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 1️⃣ Clone the Repository
 
-## License
+```bash
+git clone https://github.com/mmohamedr/prokick-store.git
+cd prokick-store
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 2️⃣ Install Dependencies
+
+```bash
+# Install PHP dependencies
+composer install
+
+# Install Node dependencies
+npm install
+```
+
+### 3️⃣ Environment Setup
+
+```bash
+# Copy environment file
+cp .env.example .env
+
+# Generate application key
+php artisan key:generate
+```
+
+### 4️⃣ Database Configuration
+
+Update your `.env` file with your database credentials:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=prokick_store
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Then run migrations and seeders:
+
+```bash
+php artisan migrate --seed
+```
+
+### 5️⃣ Start Development Server
+
+```bash
+# Terminal 1 - PHP Server
+php artisan serve
+
+# Terminal 2 - Vite Dev Server
+npm run dev
+```
+
+Visit `http://localhost:8000` in your browser
+
+---
+
+## 📦 Available Scripts
+
+```bash
+# Development
+npm run dev          # Start Vite dev server
+npm run build        # Build for production
+
+# Laravel Commands
+php artisan serve    # Start PHP built-in server
+php artisan migrate  # Run migrations
+php artisan db:seed  # Run seeders
+php artisan tinker   # Interactive shell
+
+# Testing
+npm run test         # Run PHPUnit tests
+
+# Database
+php artisan make:migration  # Create new migration
+php artisan make:model      # Create new model
+php artisan make:controller # Create new controller
+```
+
+---
+
+## 📁 Project Structure
+
+```
+prokick_store/
+├── app/
+│   ├── Http/Controllers/    # Application controllers
+│   ├── Models/              # Eloquent models (User, Product, Order, OrderItem)
+│   └── Providers/           # Service providers
+├── database/
+│   ├── migrations/          # Database migrations
+│   ├── seeders/             # Database seeders
+│   └── factories/           # Model factories for testing
+├── resources/
+│   ├── views/               # Blade templates
+│   │   ├── layouts/         # Layout templates
+│   │   ├── pages/           # Page templates
+│   │   ├── products/        # Product-related views
+│   │   ├── cart/            # Shopping cart views
+│   │   ├── checkout/        # Checkout views
+│   │   └── wishlist/        # Wishlist views
+│   ├── css/                 # Stylesheets
+│   └── js/                  # JavaScript files
+├── routes/
+│   └── web.php              # Web application routes
+├── config/                  # Configuration files
+├── storage/                 # Application storage
+└── tests/                   # Test files
+```
+
+---
+
+## 🗄️ Database Schema
+
+### Models
+
+- **Users** - Customer accounts and authentication
+- **Products** - Available sports shoes catalog
+- **Orders** - Customer orders
+- **OrderItems** - Individual items in orders
+
+---
+
+## 🔐 Security Features
+
+- CSRF Protection
+- SQL Injection Prevention
+- XSS Protection
+- Secure Password Hashing
+- Environment Variable Protection
+
+---
+
+## 🐛 Troubleshooting
+
+### Issue: `php artisan serve` throws error
+
+```bash
+# Clear cached configuration
+php artisan config:clear
+
+# Try again
+php artisan serve
+```
+
+### Issue: Database connection fails
+
+- Check `.env` database credentials
+- Verify MySQL is running
+- Ensure database exists: `php artisan migrate --force`
+
+### Issue: Node modules missing
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** - see the LICENSE file for details.
+
+---
+
+## 👤 Author
+
+**Mohamed Ramadan**
+
+- GitHub: [@mmohamedr](https://github.com/mmohamedr)
+- Email: contact@example.com
+
+---
+
+## 🙏 Support
+
+If you found this project helpful, please consider:
+
+- ⭐ Giving it a star
+- 🐛 Reporting bugs
+- 💡 Suggesting features
+- 📢 Sharing with others
+
+---
+
+## 📞 Contact & Support
+
+For questions, suggestions, or feedback:
+
+- 📧 Email: contact@example.com
+- 🐦 Twitter: [@yourhandle](https://twitter.com)
+- 💬 Discord: YourServer
+
+---
+
+<div align="center">
+
+**[⬆ back to top](#-prokick-store)**
+
+Made with ❤️ by Mohamed Ramadan
+
+</div>
