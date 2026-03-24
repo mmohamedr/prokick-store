@@ -31,14 +31,14 @@ A modern, feature-rich e-commerce web application for selling sports shoes - bui
 
 ## 🛠️ Tech Stack
 
-| Component | Technology |
-|-----------|-----------|
-| **Backend** | Laravel 12, PHP 8.2+ |
-| **Frontend** | Bootstrap 5, Vite, JavaScript |
-| **Database** | MySQL |
-| **Build Tool** | Vite |
-| **Testing** | PHPUnit |
-| **Package Manager** | Composer, npm |
+| Component           | Technology                    |
+| ------------------- | ----------------------------- |
+| **Backend**         | Laravel 12, PHP 8.2+          |
+| **Frontend**        | Bootstrap 5, Vite, JavaScript |
+| **Database**        | MySQL                         |
+| **Build Tool**      | Vite                          |
+| **Testing**         | PHPUnit                       |
+| **Package Manager** | Composer, npm                 |
 
 ---
 
@@ -269,6 +269,6 @@ For questions, suggestions, or feedback:
 
 **[⬆ back to top](#-prokick-store)**
 
-Made with ❤️ by Mohamed 
+Made with ❤️ by Mohamed
 
 </div>
